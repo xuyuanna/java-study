@@ -24,6 +24,7 @@ public class FunctionDemo {
     }
 
     public static int getResult(int num) {
+
         return num * 3 + 5;
     }
 
