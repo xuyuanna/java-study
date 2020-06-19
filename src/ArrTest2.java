@@ -13,7 +13,7 @@ public class ArrTest2 {
 
     public static void main(String[] args) {
 
-        int[] arr = new int[]{55, 53, 22, 6, 46, 78};
+        int[] arr = new int[]{55, 53, 22, 6, 46, -78};
         getNum(arr);
 
 
