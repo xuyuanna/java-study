@@ -33,6 +33,7 @@ public class FunctionDemo {
     //当函数运算后，没有具体的返回值时，这时候返回值类型用一个关键字标识。
     //该关键字就是void。void：代表的是该函数没有具体返回值时的情况。
     //当函数的返回值类型是void时，函数中的return语句省略不写。
+    //不要被数据输出，直接调用
     public static void getResult1(int num) {
         System.out.println(num * 3 + 5);
         //return;

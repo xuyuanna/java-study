@@ -23,8 +23,8 @@ public class ForForTest {
 
         System.out.println("-------------------- ");
 
-        for (int m = 0; m < 5; m++) {
-            for (int n = 5; n >m; n--) {
+        for (int m = 1; m <= 5; m++) {
+            for (int n = 5; n >=m; n--) {
                 System.out.print("*");
             }
             System.out.println();
@@ -32,8 +32,8 @@ public class ForForTest {
 
         System.out.println("-------------------- ");
 
-        for (int p = 0; p < 5; p++) {
-            for (int q = 0; q <=p ; q++) {
+        for (int p = 1; p <= 5; p++) {
+            for (int q = 1; q <=p ; q++) {
                 System.out.print("*");
             }
             System.out.println();
