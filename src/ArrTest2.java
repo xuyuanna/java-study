@@ -20,11 +20,8 @@ public class ArrTest2 {
     }
 
     public static void getNum(int[] arr) {
-        //获取最大值
-        System.out.println("该数组最大的值元素是" + getMax(arr));
-
-        //获取最小值
-        System.out.println("最小的元素是" + getMin(arr) + "。");
+        //获取最值
+        System.out.println("该数组最大的值元素是" + getMax(arr)+"，最小的元素是" + getMin(arr) + "。");
     }
 
     private static int getMin(int[] arr) {
