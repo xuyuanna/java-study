@@ -1,6 +1,8 @@
+/*
+    函数中只能调用函数，不能在函数内部定义函数。
+ */
+
 public class FunctionDemo {
-
-
 
     public static void main(String[] args) {
 
@@ -33,6 +35,7 @@ public class FunctionDemo {
     //当函数的返回值类型是void时，函数中的return语句省略不写。
     public static void getResult1(int num) {
         System.out.println(num * 3 + 5);
+        //return;
     }
 
 }
